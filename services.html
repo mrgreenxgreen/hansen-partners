@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="services.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            width: 100vw;
+            position: absolute;
+            color: white;
+        }
+
+        header .top-header {
+            background: #222;
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 2em;
+            padding-top: .25em;
+            padding-bottom: .25em;
+            font-size: small;
+        }
+
+        header .top-header input {
+            background-color: #444;
+            border: none;
+        }
+
+        header .menu-wrapper {
+            background: linear-gradient(to bottom, rgb(0, 0, 0, .5), rgba(135, 135, 135, 0.1));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 2em;
+
+
+        }
+
+        header .menu {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: .25em;
+            padding-bottom: .25em;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+
+        }
+
+
+
+
+        .video-wrapper {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            /* height:100%; */
+            /*change width to height for responsive design */
+        }
+
+        .services-wrapper {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .services-wrapper h1 {
+            font-size: 10em;
+
+        }
+
+        .services-menu {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            right: 2em;
+            justify-content: space-evenly;
+            font-size: 20px;
+            gap: 2em;
+        }
+
+        .side-label {
+            display: flex;
+            justify-content: flex-end;
+
+        }
+
+        .side-label p {
+
+            opacity: 0;
+            transition: opacity .2s ease-in-out
+        }
+
+        .side-label:hover p {
+            opacity: 1;
+
+        }
+
+        .book-button {
+            margin-top: 5em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div></div>
+            <div></div>
+            <div>English</div>
+        </div>
+        <div class="menu-wrapper">
+            <div>HANSEN PARTNERS</div>
+            <div class="menu">
+                <div>SERVICES</div>
+                <div>HOME VALUATION</div>
+                <div>HOMES ACROSS AMERICA</div>
+                <div>MEET THE TEAM</div>
+                <div>OUR COMMUNITIES</div>
+                <div>TESTIMONIALS</div>
+            </div>
+            <div>CONTACT </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="video-wrapper">
+            <video class="video-source" name="media" controls="false" playsinline autoplay loop muted
+                style="pointer-events: none;">
+                <source src="virtual-tour.mp4" type="video/mp4" />
+            </video>
+            <div class="services-wrapper">
+                <div>
+                    <h1>Services</h1>
+                </div>
+                <div class="services-menu">
+
+                    <div>
+                        <div class="side-label">
+                            <p>Decor Guidance</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Photography</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Virtual Tour</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Responsive</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Syndication</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Buying Process</p> X
+                        </div>
+                    </div>
+                    <div>
+                        <div class="side-label">
+                            <p>Selling Process</p> X
+                        </div>
+                    </div>
+                </div>
+
+                <button class="book-button">Book Appointment</button>
+            </div>
+        </section>
+        <section>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+            <div>SERVICES</div>
+            <div>HOME VALUATION</div>
+            <div>HOMES ACROSS AMERICA</div>
+            <div>MEET THE TEAM</div>
+            <div>OUR COMMUNITIES</div>
+            <div>TESTIMONIALS</div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
